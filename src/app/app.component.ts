@@ -50,10 +50,10 @@ export class AppComponent {
     let validChars = '';
 
     if (this.includeUppercaseLetters) {
-      validChars += lowercaseLetters;
+      validChars += uppercaseLetters;
     }
     if (this.includeLowercaseLetters) {
-      validChars += uppercaseLetters;
+      validChars += lowercaseLetters;
     }
     if (this.includeNumbers) {
       validChars += numbers;
